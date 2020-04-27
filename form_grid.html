@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NYSL</title>
+    <link rel="stylesheet" type="text/css" href="nysl_form_grid.css">
+</head>
+
+<body>
+    <div class="page_container">
+        <header>
+            <p class="main_title">NORTH YOUTH SOCCER LEAGUE</p>
+        </header>
+        <div class="container_nav">
+            <nav class="nav">
+                <img class="bullet" src="nysl_logo.png" alt="Logo">
+                <ul>
+                    <li><a href="index_grid.html">Home</a></li>
+                    <li><a href="about_grid.html">About NYSL</a></li>
+                    <li><a href="contact_grid.html">Contact</a></li>
+                    <li><a href="rules_grid.html">Rules & Policies</a></li>
+                    <li><a href="game_grid.html">Game Info</a></li>
+                    <li><a href="form_grid.html">Registration Form</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container_form">
+            <div class="form_title">REGISTRATION FORM</div>
+            <form action="./showdata_grid.html" method="GET">
+                <div class="form_size">
+                    <div class="container_form1">
+                        <div class="container_ident">
+                            <ul class="ident">
+                                <li class="ident1">Player's First Name:<input type="text" name="First_Name"></li>
+                                <li class="ident1">Last Name:<input type="text" name="Last_Name"></li>
+                            </ul>
+                        </div>
+                        <div class="container_address">
+                            <ul class="adress">
+                                <li class="adress1">Street Address:<input type="text" name="Address"></li>
+                            </ul>
+                        </div>
+                        <div class="container_city">
+                            <ul class="city">
+                                <li class="city1">City:<input type="text" name="City"></li>
+                                <li class="city1">Zip Code:<input type="text" name="Zip_Code"></li>
+                            </ul>
+                        </div>
+                        <div class="container_pdata">
+                            <ul class="pdata">
+                                <li class="pdata1"><label for="1">Birth Date (mm/dd/yyyy):</label> <input type="text"
+                                        name="Birthday" id="1"></li>
+                                <li class="pdata2">
+                                    <div class="gender">Gender:</div>
+                                </li>
+                                <li class="pdata3"><input type="radio" name="Gender">Female</li>
+                                <li class="pdata3"><input type="radio" name="Gender">Male</li>
+                            </ul>
+                        </div>
+                        <div class="container_school">
+                            <ul class="scholl">
+                                <li class="school1">
+                                    <div class="grade">Grade:</div>
+                                </li>
+                                <li class="school1"><input type="radio" name="Grade">Pre-School</li>
+                                <li class="school1"><input type="radio" name="Grade">1<sup>st</sup></li>
+                                <li class="school1"><input type="radio" name="Grade">2<sup>nd</sup></li>
+                                <li class="school1"><input type="radio" name="Grade">3<sup>rd</sup></li>
+                                <li class="school1"><input type="radio" name="Grade">4<sup>th</sup></li>
+                                <li class="school1"><input type="radio" name="Grade">5<sup>th</sup></li>
+                            </ul>
+                        </div>
+                        <div class="container_parent">
+                            <ul class="parent">
+                                <li class="parent1">Parent/Guardian:<input type="text" name="Parent_Guardian"></li>
+                            </ul>
+                        </div>
+                        <div class="container_contact">
+                            <ul class="contact">
+                                <li class="contact1">Contact Phone:<input type="text" name="Telephone"></li>
+                                <li class="contact2">Contact Email:<input type="text" name="Email"></li>
+                            </ul>
+                        </div>
+                        <p class="qstn1">Which elementary schools do you live near?</p>
+                        <div class="container_zone">
+                            <div class="container_zone1">
+                                <ul class="zone_a">
+                                    <li class="zone1">First Closest School</li>
+                                    <li class="zone_1"><input type="radio" name="Closest_School"
+                                            value="AJ Katzenmaier">AJ Katzenmaier</li>
+                                    <li class="zone_1"><input type="radio" name="Closest_School"
+                                            Value="Marjorie P Hart">Marjorie P Hart</li>
+                                    <li class="zone_1"><input type="radio" name="Closest_School"
+                                            value="Greenbay">Greenbay</li>
+                                    <li class="zone_1"><input type="radio" name="Closest_School"
+                                            value="North Elementary">North Elementary</li>
+                                    <li class="zone_1"><input type="radio" name="Closest_School"
+                                            value="Howard A Yeager">Howard A Yeager</li>
+                                    <li class="zone_1"><input type="radio" name="Closest_School"
+                                            value="South Elementary">South Elementary</li>
+                                </ul>
+                            </div>
+                            <div class="container_zone2">
+                                <ul class="zone_b">
+                                    <li class="zone2">Second Closest School</li>
+                                    <li class="zone_2"><input type="radio" name="2nd_Closest" value="AJ Katzenmaier">AJ
+                                        Katzenmaier</li>
+                                    <li class="zone_2"><input type="radio" name="2nd_Closest"
+                                            Value="Marjorie P Hart">Marjorie P Hart</li>
+                                    <li class="zone_2"><input type="radio" name="2nd_Closest" value="Greenbay">Greenbay
+                                    </li>
+                                    <li class="zone_2"><input type="radio" name="2nd_Closest"
+                                            value="North Elementary">North Elementary</li>
+                                    <li class="zone_2"><input type="radio" name="2nd_Closest"
+                                            value="Howard A Yeager">Howard A Yeager</li>
+                                    <li class="zone_2"><input type="radio" name="2nd_Closest"
+                                            value="South Elementary">South Elementary</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="qstn2">What position(s) do you normally play? (check all that apply)</p>
+                        <div class="container_position1">
+                            <ul class="position_p">
+                                <li class="pos1"><input type="checkbox" name="  " value="Goalkeeper">Goalkeeper</li>
+                                <li class="pos1"><input type="checkbox" name="Position" value="Defense">Defense</li>
+                                <li class="pos1"><input type="checkbox" name="Position" value="Midfield">Midfield</li>
+                                <li class="pos1"><input type="checkbox" name="Position" value="Forward">Formward</li>
+                            </ul>
+                        </div>
+                        <p class="qstn3">What position(s) do you want play? (check all that apply)</p>
+                        <div class="container_position2">
+                            <ul class="position_w">
+                                <li class="pos2"><input type="checkbox" name="Wanted_Position"
+                                        value="Goalkeeper">Goalkeeper</li>
+                                <li class="pos2"><input type="checkbox" name="Wanted_Position" value="Defense">Defense
+                                </li>
+                                <li class="pos2"><input type="checkbox" name="Wanted_Position" value="Midfield">Midfield
+                                </li>
+                                <li class="pos2"><input type="checkbox" name="Wanted_Position" value="Forward">Formward
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="jersey_radio">
+                            <input type="radio" name="Equipment" value="Yes">Already have a Uniform
+                        </div>
+                        <div class="container_mainjersey">
+                            <div class="container_jersey">
+                                <ul class="jersey">
+                                    <li class="jers1">Jersey Size:</li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Youth Small">Youth Small
+                                    </li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Small">Small</li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Youth Medium">Youth Medium
+                                    </li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Medium">Medium</li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Youth Large">Youth Large
+                                    </li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Large">Large</li>
+                                    <li class="jers"><input type="radio" name="Jersey" value="Extra Large">Extra-Large
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="container_shorts">
+                                <ul class="shorts">
+                                    <li class="short1">Shorts Size:</li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Youth Small">Youth Small
+                                    </li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Small">Small</li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Youth Medium">Youth
+                                        Medium</li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Medium">Medium</li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Youth Large">Youth Large
+                                    </li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Large">Large</li>
+                                    <li class="short"><input type="radio" name="Shorts" value="Extra-Large">Extra-Large
+                                    </li>
+                                </ul>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <input type="submit" value="Submit">
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
